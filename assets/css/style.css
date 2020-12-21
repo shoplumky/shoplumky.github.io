@@ -1,0 +1,33 @@
+.logo-lumky {
+  width: 74px;
+  height: 16px;
+}
+.disable-select {
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+.copy-footer {
+  color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+  .text-support {
+    display: none!important;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  div.footer-logo.mr-50 {
+    display: none!important;
+  }
+  div.secure_paiement {
+    display: none!important;
+  }
+  div.footer_social_area {
+    display: none!important;
+  }
+}

@@ -1,0 +1,39 @@
+<!-- ##### Right Side Cart Area ##### -->
+<div class="cart-bg-overlay"></div>
+
+<div class="right-side-cart-area">
+    <!-- Cart Button -->
+    <div class="cart-button disable-select" onmousedown="return false" onselectstart="return false">
+        <a style="cursor: pointer;" id="rightSideCart"><img src="assets/img/core-img/bag.svg" alt="" /> <span id="productNumbersmenu">0</span></a>
+    </div>
+
+    <div class="cart-content d-flex">
+        <!-- Cart List Area -->
+        <div class="cart-list" id="show-cart"></div>
+
+        <!-- Cart Summary -->
+        <div class="cart-amount-summary">
+            <h2>Panier</h2>
+            <ul class="summary-table">
+                <li><span>Sous-total:</span> <span id="subtotal-cart">Indisponible</span></li>
+                <li><span>Frais de port:</span> <span id="delivery">Indisponible</span></li>
+                <li><span>Total:</span> <span id="total-cart">Indisponible</span></li>
+                <p style="font-size: .75em; margin-top: -15px;">TTC (EU), livraison incluse<p>
+            </ul>
+            <p id="clear-cart" style="color: #000; cursor: pointer; font-size: 12px!important;">Rénitialiser le panier</p>
+            <div class="checkout-btn mt-100">
+                <a href="checkout.html" class="btn lumky-btn">Commander</a>
+            </div>
+            <style>
+              .methods-of-payment img { margin-top: 20px; padding: 0.2em; max-width: 20%!important;; }
+              .lt-ie9 .methods-of-payment, .ie8 .methods-of-payment, .oldie .methods-of-payment { display: none; }
+            </style>
+            <span class="methods-of-payment">
+              <img src="assets/img/logo-paiement/visa.svg" height="35" alt="american express" />
+              <img src="assets/img/logo-paiement/mastercard.svg" height="35" alt="master" />
+              <img src="assets/img/logo-paiement/american-express.svg" height="35" alt="visa" />
+            </span>
+        </div>
+    </div>
+</div>
+<!-- ##### Right Side Cart End ##### -->

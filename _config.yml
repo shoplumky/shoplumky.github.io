@@ -1,0 +1,7 @@
+title: Magasin Officiel Lumky
+email: lumky@tutanota.io
+description: >-
+  Lumky, pour une satisfaction inégalée.
+
+plugins:
+  - jekyll-sitemap

@@ -1,0 +1,137 @@
+.center {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto !important;
+}
+
+.container-compteur {
+  width: 90%;
+  text-align: center;
+  height: 110px;
+}
+
+section,
+.donut-chart {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 2rem;
+  border-radius: 100%;
+}
+
+.jours, .heures, .minutes, .secondes {
+  display: inline-block;
+}
+
+section {
+  width: 120px;
+}
+
+p.center-time {
+  position: absolute;
+  text-align: center;
+  font-size: 28px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  margin: auto;
+  border-radius: 50%;
+  line-height: 40px;
+  color: #000;
+}
+
+p.center-unit {
+  position: absolute;
+  text-align: center;
+  font-size: 16px;
+  top: 0;
+  left: 0;
+  bottom: -110px;
+  right: 0;
+  width: 110px;
+  height: 40px;
+  margin: auto;
+  border-radius: 50%;
+  line-height: 40px;
+  color: #000;
+}
+
+.trim {
+  border-radius: 50%;
+  clip: rect(0px, 80px, 80px, 40px);
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.embed {
+  border-radius: 50%;
+  clip: rect(0px, 40px, 80px, 0px);
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  font-family: monospace;
+  font-size: 1.5rem;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+#portion-back-1 {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+#portion-back-1 .embed {
+  border: 5px solid #404040;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+#portion-back-2 {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+#portion-back-2 .embed {
+  border: 5px solid #404040;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+#portion1 {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+#portion1 .embed {
+  border: 5px solid #01a6a0;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+#portion2 {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+#portion2 .embed {
+  border: 5px solid #01a6a0;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+@media only screen and (max-width: 1024px) {
+  .compteur {
+    margin-bottom: 150px;
+  }
+}

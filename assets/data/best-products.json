@@ -1,0 +1,21 @@
+{
+  "active": true,
+  "products": [
+    {
+      "id": "0",
+      "name": "Products 1"
+    },
+    {
+      "id": "1",
+      "name": "Products 2"
+    },
+    {
+      "id": "2",
+      "name": "Products 3"
+    },
+    {
+      "id": "3",
+      "name": "Products 4"
+    }
+  ]
+}

@@ -6,11 +6,25 @@
 
     <!-- Title  -->
     <title>{% if page.title %}{{ site.title }} | {{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="title" content="{% if page.title %}{{ site.title }} | {{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="description" content="{{site.description}}">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{page.url}}">
+    <meta property="og:title" content="{% if page.title %}{{ site.title }} | {{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:description" content="{{site.description}}">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="{{page.url}}">
+    <meta property="twitter:title" content="{% if page.title %}{{ site.title }} | {{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="twitter:description" content="{{site.description}}">
 
     <!-- Core Style CSS -->
     <link rel="stylesheet" href="{{site.url}}/assets/css/core-style.css">
     <link rel="stylesheet" href="{{site.url}}/assets/css/style.css">
-    {% if page.url == '/' and '/404.html' %}
+    {% if page.url == '/coming-soon/' or page.layout == "coming-soon" %}
     <link rel="stylesheet" href="{{site.url}}/assets/css/coming-soon.css">
     {% endif %}
 

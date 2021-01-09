@@ -4,7 +4,7 @@
 <div class="right-side-cart-area">
     <!-- Cart Button -->
     <div class="cart-button disable-select" onmousedown="return false" onselectstart="return false">
-        <a style="cursor: pointer;" id="rightSideCart"><img src="assets/img/core-img/bag.svg" alt="" /> <span id="productNumbersmenu">0</span></a>
+        <a style="cursor: pointer;" id="rightSideCart"><img src="{{site.url}}/assets/img/core-img/bag.svg" alt="" /> <span id="productNumbersmenu">0</span></a>
     </div>
 
     <div class="cart-content d-flex">
@@ -22,16 +22,16 @@
             </ul>
             <p id="clear-cart" style="color: #000; cursor: pointer; font-size: 12px!important;">Rénitialiser le panier</p>
             <div class="checkout-btn mt-100">
-                <a href="checkout.html" class="btn lumky-btn">Commander</a>
+                <a href="{{site.url}}/checkout/" class="btn lumky-btn">Commander</a>
             </div>
             <style>
               .methods-of-payment img { margin-top: 20px; padding: 0.2em; max-width: 20%!important;; }
               .lt-ie9 .methods-of-payment, .ie8 .methods-of-payment, .oldie .methods-of-payment { display: none; }
             </style>
             <span class="methods-of-payment">
-              <img src="assets/img/logo-paiement/visa.svg" height="35" alt="american express" />
-              <img src="assets/img/logo-paiement/mastercard.svg" height="35" alt="master" />
-              <img src="assets/img/logo-paiement/american-express.svg" height="35" alt="visa" />
+              <img src="{{site.url}}/assets/img/logo-paiement/visa.svg" height="35" alt="american express" />
+              <img src="{{site.url}}/assets/img/logo-paiement/mastercard.svg" height="35" alt="master" />
+              <img src="{{site.url}}/assets/img/logo-paiement/american-express.svg" height="35" alt="visa" />
             </span>
         </div>
     </div>

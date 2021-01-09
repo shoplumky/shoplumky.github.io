@@ -3,19 +3,31 @@
   "products": [
     {
       "id": "0",
-      "name": "Products 1"
+      "name": "Products 1",
+      "brand": "Lumky",
+      "price": "80.00",
+      "img": "assets/img/product-img/product-1.jpg"
     },
     {
       "id": "1",
-      "name": "Products 2"
+      "name": "Products 2",
+      "brand": "Lumky",
+      "price": "80.00",
+      "img": "assets/img/product-img/product-2.jpg"
     },
     {
       "id": "2",
-      "name": "Products 3"
+      "name": "Products 3",
+      "brand": "Lumky",
+      "price": "80.00",
+      "img": "assets/img/product-img/product-3.jpg"
     },
     {
       "id": "3",
-      "name": "Products 4"
+      "name": "Products 4",
+      "brand": "Lumky",
+      "price": "80.00",
+      "img": "assets/img/product-img/product-4.jpg"
     }
   ]
 }

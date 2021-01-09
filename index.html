@@ -1,70 +1,186 @@
 ---
-title: Bientôt disponible
-layout: default
+permalink: "/"
+title: "Boutique"
+layout: "default"
 ---
 
-<!-- ##### Breadcumb Area Start ##### -->
-<div class="breadcumb_area breadcumb-style-two bg-img" style="background-image: url(assets/img/bg-img/coming-soon.gif);">
-    <div class="container h-100">
-        <div class="row h-100 align-items-center">
-            <div class="col-12">
-                <div class="page-title text-center disable-select">
-                    <h2 style="color: #000; cursor: text;">Coming-Soon</h2><br><br>
-                    <a href="javascript:history.back()" class="wow fadeInLeft btn lumky-btn" data-wow-duration="1s" data-wow-delay=".3s">Aller au Magasin</a>
+        <!-- ##### Welcome Area Start ##### -->
+        <section class="wow fadeInRight welcome_area bg-img background-overlay" data-wow-duration="1s" data-wow-delay=".1s" style="background-image: url({{site.url}}/assets/img/bg-img/bg-1.png);">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col-12">
+                        <div class="hero-content">
+                            <h6 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".1s">Lumky, pour une satisfaction inégalée.</h6>
+                            <h2 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".2s">Et, pour de vrai.</h2>
+                            <a href="/news/" class="wow fadeInLeft btn lumky-btn" data-wow-duration="1s" data-wow-delay=".3s">Nouveautés</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ##### Welcome Area End ##### -->
+
+        <!-- ##### Top Catagory Area Start ##### -->
+        <div class="top_catagory_area section-padding-80 clearfix">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <!-- Single Catagory -->
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="wow fadeInRight single_catagory_area d-flex align-items-center justify-content-center bg-img" data-wow-duration="1s" data-wow-delay=".2s" style="background-image: url({{site.url}}/assets/img/bg-img/bg-2.png);">
+                            <div class="catagory-content">
+                                <a href="#">Peluches</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Catagory -->
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="wow fadeInRight single_catagory_area d-flex align-items-center justify-content-center bg-img" data-wow-duration="1s" data-wow-delay=".3s" style="background-image: url({{site.url}}/assets/img/bg-img/bg-3.png);">
+                            <div class="catagory-content">
+                                <a href="#">Vêtements</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Catagory -->
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="wow fadeInRight single_catagory_area d-flex align-items-center justify-content-center bg-img" data-wow-duration="1s" data-wow-delay=".4s" style="background-image: url({{site.url}}/assets/img/bg-img/bg-4.png);">
+                            <div class="catagory-content">
+                                <a href="#">Accessoires</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
-<!-- ##### Breadcumb Area End ##### -->
+        <!-- ##### Top Catagory Area End ##### -->
 
-<div class="container compteur">
-    <div class="row justify-content-center">
-        <div class="col-12 col-md-8">
-            <div class="regular-page-content-wrapper section-padding-80">
-              <div class="container-compteur center">
-                <section class="jours">
-                  <div class="donut-chart">
-                    <div id="portion-back-1" class="trim"><div class="embed"></div></div>
-                    <div id="portion-back-2" class="trim"><div class="embed"></div></div>
-                    <div id="portion1" class="trim"><div class="embed"></div></div>
-                    <div id="portion2" class="trim"><div class="embed"></div></div>
-                    <p class="center-time" id="time">00</p>
-                  </div>
-                  <p class="center-unit">JOURS</p>
-                </section>
-                <section class="heures">
-                  <div class="donut-chart">
-                    <div id="portion-back-1" class="trim"><div class="embed"></div></div>
-                    <div id="portion-back-2" class="trim"><div class="embed"></div></div>
-                    <div id="portion1" class="trim"><div class="embed"></div></div>
-                    <div id="portion2" class="trim"><div class="embed"></div></div>
-                    <p class="center-time" id="time">00</p>
-                  </div>
-                  <p class="center-unit">HEURES</p>
-                </section>
-                <section class="minutes">
-                  <div class="donut-chart">
-                    <div id="portion-back-1" class="trim"><div class="embed"></div></div>
-                    <div id="portion-back-2" class="trim"><div class="embed"></div></div>
-                    <div id="portion1" class="trim"><div class="embed"></div></div>
-                    <div id="portion2" class="trim"><div class="embed"></div></div>
-                    <p class="center-time" id="time">00</p>
-                  </div>
-                  <p class="center-unit">MINUTES</p>
-                </section>
-                <section class="secondes">
-                  <div class="donut-chart">
-                    <div id="portion-back-1" class="trim"><div class="embed"></div></div>
-                    <div id="portion-back-2" class="trim"><div class="embed"></div></div>
-                    <div id="portion1" class="trim"><div class="embed"></div></div>
-                    <div id="portion2" class="trim"><div class="embed"></div></div>
-                    <p class="center-time" id="time">00</p>
-                  </div>
-                  <p class="center-unit">SECONDES</p>
-                </section>
-              </div>
+        <!-- ##### CTA Area Start ##### -->
+        <div class="cta-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="cta-content bg-img background-overlay" style="background-image: url({{site.url}}/assets/img/bg-img/bg-5.png);">
+                            <div class="h-100 d-flex align-items-center justify-content-end">
+                                <div class="cta--text">
+                                    <h6 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s">Promotion de -60%</h6>
+                                    <h2 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">Mon Octopus</h2>
+                                    <a href="/event/" class="wow fadeInLeft btn lumky-btn" data-wow-duration="1s" data-wow-delay=".6s">Je veux la mienne</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</div>
+        <!-- ##### CTA Area End ##### -->
+
+        <!-- ##### New Arrivals Area Start ##### -->
+        <section class="new_arrivals_area section-padding-80 clearfix">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-heading text-center">
+                            <h2>Nouveaux Produits</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="popular-products-slides owl-carousel">
+                            <!-- Produit 1 -->
+                            <div class="single-product-wrapper">
+                              <!-- Product Image -->
+                              <div class="product-img" id="img-products-0"></div>
+                              <!-- Product Description -->
+                              <div class="product-description">
+                                  <span id="brand-products-0"></span> <a href="{{site.url}}/event/"> <h6 id="title-products-0"></h6> </a>
+                                  <p class="product-price" id="price-products-0"></p>
+                                  <!-- Hover Content -->
+                                  <div class="hover-content">
+                                      <!-- Ajout au Panier -->
+                                      <div class="add-to-cart-btn" id="product-0" data-name="Product 1" data-brand="Lumky" data-price="80.00" data-delivery="10.00" data-img="{{site.url}}/assets/img/product-img/product.jpg"><a href="javascript:void(0);" class="btn lumky-btn btn-transparent">Ajout au Panier</a></div>
+                                  </div>
+                              </div>
+                            </div>
+                            <!-- Produit 2 -->
+                            <div class="single-product-wrapper">
+                              <!-- Product Image -->
+                              <div class="product-img" id="img-products-1"></div>
+                              <!-- Product Description -->
+                              <div class="product-description">
+                                  <span id="brand-products-1"></span> <a href="{{site.url}}/event/"> <h6 id="title-products-1"></h6> </a>
+                                  <p class="product-price" id="price-products-1"></p>
+                                  <!-- Hover Content -->
+                                  <div class="hover-content">
+                                      <!-- Ajout au Panier -->
+                                      <div class="add-to-cart-btn" id="product-1" data-name="Product 2" data-brand="Lumky" data-price="80.00" data-delivery="10.00" data-img="{{site.url}}/assets/img/product-img/product.jpg"><a href="javascript:void(0);" class="btn lumky-btn btn-transparent">Ajout au Panier</a></div>
+                                  </div>
+                              </div>
+                            </div>
+                            <!-- Produit 3 -->
+                            <div class="single-product-wrapper">
+                              <!-- Product Image -->
+                              <div class="product-img" id="img-products-2"></div>
+                              <!-- Product Description -->
+                              <div class="product-description">
+                                  <span id="brand-products-2"></span> <a href="{{site.url}}/event/"> <h6 id="title-products-2"></h6> </a>
+                                  <p class="product-price" id="price-products-2"></p>
+                                  <!-- Hover Content -->
+                                  <div class="hover-content">
+                                      <!-- Ajout au Panier -->
+                                      <div class="add-to-cart-btn" id="product-2" data-name="Product 3" data-brand="Lumky" data-price="80.00" data-delivery="10.00" data-img="{{site.url}}/assets/img/product-img/product.jpg"><a href="javascript:void(0);" class="btn lumky-btn btn-transparent">Ajout au Panier</a></div>
+                                  </div>
+                              </div>
+                            </div>
+                            <!-- Produit 4 -->
+                            <div class="single-product-wrapper">
+                              <!-- Product Image -->
+                              <div class="product-img" id="img-products-3"></div>
+                              <!-- Product Description -->
+                              <div class="product-description">
+                                  <span id="brand-products-3"></span> <a href="{{site.url}}/event/"> <h6 id="title-products-3"></h6> </a>
+                                  <p class="product-price" id="price-products-3"></p>
+                                  <!-- Hover Content -->
+                                  <div class="hover-content">
+                                      <!-- Ajout au Panier -->
+                                      <div class="add-to-cart-btn" id="product-3" data-name="Product 4" data-brand="Lumky" data-price="80.00" data-delivery="10.00" data-img="{{site.url}}/assets/img/product-img/product.jpg"><a href="javascript:void(0);" class="btn lumky-btn btn-transparent">Ajout au Panier</a></div>
+                                  </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ##### New Arrivals Area End ##### -->
+
+        <!-- ##### Brands Area Start ##### -->
+        <div class="brands-area d-flex align-items-center justify-content-between">
+            <!-- Brand Logo -->
+            <div class="single-brands-logo disable-select">
+                <img src="{{site.url}}/assets/img/partenaires/partenaire-1.png" class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s" onmousedown="return false" onselectstart="return false" alt="" />
+            </div>
+            <!-- Brand Logo -->
+            <div class="single-brands-logo disable-select">
+                <img src="{{site.url}}/assets/img/partenaires/partenaire-2.png" class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".6s" onmousedown="return false" onselectstart="return false" alt="" />
+            </div>
+            <!-- Brand Logo -->
+            <div class="single-brands-logo disable-select">
+                <img src="{{site.url}}/assets/img/partenaires/partenaire-3.png" class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".7s" onmousedown="return false" onselectstart="return false" alt="" />
+            </div>
+            <!-- Brand Logo -->
+            <div class="single-brands-logo disable-select">
+                <img src="{{site.url}}/assets/img/partenaires/partenaire-4.png" class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".8s" onmousedown="return false" onselectstart="return false" alt="" />
+            </div>
+            <!-- Brand Logo -->
+            <div class="single-brands-logo disable-select">
+                <img src="{{site.url}}/assets/img/partenaires/partenaire-5.png" class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".9s" onmousedown="return false" onselectstart="return false" alt="" />
+            </div>
+            <!-- Brand Logo -->
+            <div class="single-brands-logo disable-select">
+                <img src="{{site.url}}/assets/img/partenaires/partenaire-6.png" class="wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s" onmousedown="return false" onselectstart="return false" alt="" />
+            </div>
+        </div>
+        <!-- ##### Brands Area End ##### -->

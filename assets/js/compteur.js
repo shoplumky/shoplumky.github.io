@@ -9,8 +9,8 @@ function compte_a_rebours()
 	var compte_a_rebours = document.getElementById("p");
 
 	var date_actuelle = new Date();
-	var date_evenement = new Date("Jan 10 00:00:00 2021");
-	var date_lancement = new Date("Dec 17 00:00:00 2020");
+	var date_evenement = new Date("Feb 10:00:00 2021");
+	var date_lancement = new Date("Dec 27 00:00:00 2020");
 	var total_secondes = (date_evenement - date_actuelle) / 1000;
 
 
